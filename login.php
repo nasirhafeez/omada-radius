@@ -1,7 +1,9 @@
 <?php
 session_start();
 
-print_r($_SESSION);
+echo '<pre>';
+var_dump($_SESSION);
+echo '</pre>';
 
 $username = $_POST["username"];
 $password = $_POST["password"];
