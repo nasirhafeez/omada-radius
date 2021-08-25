@@ -3,31 +3,20 @@ session_start();
 
 $username = $_POST["username"];
 $password = $_POST["password"];
+$authType = 2;
 
-//$target = $_SESSION["target"];
 $target = "35.232.41.231";
 $targetPort = $_SESSION["targetPort"];
-$clientMac = $_SESSION["clientMac"];
-$clientIp = $_SESSION["clientIp"];
-$radiusServerIp = $_SESSION["radiusServerIp"];
-$apMac = $_SESSION["apMac"];
-$gatewayMac = $_SESSION["gatewayMac"];
-$scheme = $_SESSION["scheme"];
-$ssidName = $_SESSION["ssidName"];
-$vid = $_SESSION["vid"];
-$radioId = $_SESSION["radioId"];
-$originUrl = $_SESSION["originUrl"];
-$authType = 2;
 
 $postData = [
   "clientMac" => $_SESSION["clientMac"],
-  "clientIp" => $clientIp,
-  "apMac" => $apMac,
-  "gatewayMac" => $gatewayMac,
-  "ssidName" => $ssidName,
-  "vid" => $vid,
-  "radioId" => $radioId,
-  "originUrl" => $originUrl,
+  "clientIp" => $_SESSION["clientIp"],
+  "apMac" => $_SESSION["apMac"],
+  "gatewayMac" => $_SESSION["gatewayMac"],
+  "ssidName" => $_SESSION["ssidName"],
+  "vid" => $_SESSION["vid"],
+  "radioId" => $_SESSION["radioId"],
+  "originUrl" => $_SESSION["originUrl"],
   "authType" => $authType,
   "username" => $username,
   "password" => $password,
