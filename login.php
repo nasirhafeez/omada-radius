@@ -59,7 +59,7 @@ curl_close($curl);
 if ($response !== false) {
   $json = json_decode($response, true);
   if ($json['errorCode'] == 0) {
-    echo "Success!"
+    echo "Success!";
   }
 }
 else {
