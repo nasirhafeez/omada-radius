@@ -26,7 +26,7 @@ $postData = [
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => $scheme.'://'.$target.':'.$targetPort.'/portal/radius/auth',
+  CURLOPT_URL => $_SESSION["scheme"].'://'.$target.':'.$_SESSION["targetPort"].'/portal/radius/auth',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
