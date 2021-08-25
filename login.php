@@ -60,7 +60,7 @@ curl_close($curl);
 
 if ($response !== false) {
   $json = json_decode($response, true);
-  //print_r($json);
+  print_r($json);
 }
 else {
   die("Error: check with your network administrator");
