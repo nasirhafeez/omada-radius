@@ -20,7 +20,7 @@ $originUrl = $_SESSION["originUrl"];
 $authType = 2;
 
 $postData = [
-  "clientMac" => $clientMac,
+  "clientMac" => $_SESSION["clientMac"],
   "clientIp" => $clientIp,
   "apMac" => $apMac,
   "gatewayMac" => $gatewayMac,
