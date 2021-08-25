@@ -19,7 +19,7 @@ $postData = [
   "originUrl" => $_SESSION["originUrl"],
   "authType" => $authType,
   "username" => $username,
-  "password" => $password,
+  "password" => $password
 ];
 
 $curl = curl_init();
