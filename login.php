@@ -7,7 +7,8 @@ session_start();
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-$target = $_SESSION["target"];
+//$target = $_SESSION["target"];
+$target = "35.232.41.231";
 $targetPort = $_SESSION["targetPort"];
 $clientMac = $_SESSION["clientMac"];
 $clientIp = $_SESSION["clientIp"];
