@@ -29,7 +29,7 @@ $_SESSION["originUrl"] = $_GET["originUrl"];
 
 		<form method="post" action="login.php">
 			Username
-			<input type="text" name="name" placeholder="Username"><br>
+			<input type="text" name="username" placeholder="Username"><br>
 			Password
 			<input type="password" name="password" placeholder="Password"><br>
 			<input type="submit" value="Connect">
