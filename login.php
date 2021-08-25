@@ -4,10 +4,7 @@ session_start();
 $username = $_POST["username"];
 $password = $_POST["password"];
 $authType = 2;
-
-$scheme = $_SESSION["scheme"];
 $target = "35.232.41.231";
-$targetPort = $_SESSION["targetPort"];
 
 $postData = [
   "clientMac" => $_SESSION["clientMac"],
