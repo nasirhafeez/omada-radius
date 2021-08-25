@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-print_r($_SESSION);
-print_r($_POST);
-/*
+//print_r($_SESSION);
+//print_r($_POST);
+
 $username = $_POST["username"];
 $password = $_POST["password"];
 
@@ -65,5 +65,5 @@ if ($response !== false) {
 else {
   die("Error: check with your network administrator");
 }
-*/
+
 ?>

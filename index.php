@@ -1,6 +1,6 @@
 <?php
 session_start();
-/*
+
 $_SESSION["target"] = $_GET["target"];
 $_SESSION["targetPort"] = $_GET["targetPort"];
 $_SESSION["clientMac"] = $_GET["clientMac"];
@@ -13,7 +13,7 @@ $_SESSION["ssidName"] = $_GET["ssidName"];
 $_SESSION["vid"] = $_GET["vid"];
 $_SESSION["radioId"] = $_GET["radioId"];
 $_SESSION["originUrl"] = $_GET["originUrl"];
-*/
+
 ?>
 <!doctype html>
 
