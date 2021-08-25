@@ -4,7 +4,8 @@ session_start();
 echo '<pre>';
 var_dump($_SESSION);
 echo '</pre>';
-
+var_dump($_POST);
+/*
 $username = $_POST["username"];
 $password = $_POST["password"];
 
@@ -66,5 +67,5 @@ if ($response !== false) {
 else {
   die("Error: check with your network administrator");
 }
-
+*/
 ?>
